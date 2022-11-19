@@ -1,4 +1,4 @@
-package com.company.common;
+package com.bigben.common;
 
 /**
  * wangkai

@@ -1,4 +1,4 @@
-package com.company.array;
+package com.bigben.array;
 
 /**
  * 495 <br>

@@ -1,4 +1,4 @@
-package com.company;
+package com.bigben.old;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,13 +11,11 @@ import java.util.List;
  * Y   I   R
  * And then read line by line: "PAHNAPLSIIGYIR"
  * <p>
- * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/zigzag-conversion
- * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * wangkai
  * 2021/6/9
  **/
-public class ZigZagConversion {
+public class ZigZagConversion6 {
     class Solution {
         public String convert(String s, int numRows) {
             if (numRows == 1) {

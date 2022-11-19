@@ -1,6 +1,4 @@
-package com.company.array;
-
-import java.util.Objects;
+package com.bigben.array;
 
 /**
  * 编号：错误的集合

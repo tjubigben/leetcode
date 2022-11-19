@@ -1,4 +1,4 @@
-package com.company;
+package com.bigben.old;
 
 /**
  * Given a signed 32-bit integer x, return x with its digits reversed.
@@ -12,7 +12,7 @@ package com.company;
  * wangkai
  * 2021/6/10
  **/
-public class ReverseInteger {
+public class ReverseInteger7 {
     class Solution {
         public int reverse(int x) {
             int sum = 0;
@@ -30,7 +30,7 @@ public class ReverseInteger {
 
     public static void main(String[] args) {
         int x = 123;
-        Solution solution = new ReverseInteger().new Solution();
+        Solution solution = new ReverseInteger7().new Solution();
         int result = solution.reverse(x);
         System.out.println(result);
     }

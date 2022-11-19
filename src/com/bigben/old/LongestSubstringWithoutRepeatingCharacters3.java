@@ -1,4 +1,4 @@
-package com.company;
+package com.bigben.old;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -20,7 +20,7 @@ import static java.lang.Math.max;
  * wangkai
  * 2021/6/7
  **/
-public class LongestSubstringWithoutRepeatingCharacters {
+public class LongestSubstringWithoutRepeatingCharacters3 {
 
     class Solution {
         public int lengthOfLongestSubstring(String s) {
@@ -48,7 +48,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
         String s = "bb";
-        Solution solution = new LongestSubstringWithoutRepeatingCharacters().new Solution();
+        Solution solution = new LongestSubstringWithoutRepeatingCharacters3().new Solution();
         int resule = solution.lengthOfLongestSubstring(s);
         System.out.println(resule);
     }

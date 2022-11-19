@@ -1,6 +1,6 @@
-package com.company;
+package com.bigben.old;
 
-import com.company.common.ListNode;
+import com.bigben.common.ListNode;
 
 /**
  * You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order,
@@ -18,7 +18,7 @@ import com.company.common.ListNode;
  * 2021/6/1
  **/
 
-public class AddTwoNumbers {
+public class AddTwoNumbers2 {
 
     class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -56,7 +56,7 @@ public class AddTwoNumbers {
         ListNode l1 = new ListNode(9, l13);
         ListNode l2 = new ListNode(8, l13);
 
-        Solution solution = new AddTwoNumbers().new Solution();
+        Solution solution = new AddTwoNumbers2().new Solution();
         ListNode result = solution.addTwoNumbers(l1, l2);
         while (result != null) {
             System.out.print(result.getVal() + "->");

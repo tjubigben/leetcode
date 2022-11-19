@@ -1,4 +1,4 @@
-package com.company.array;
+package com.bigben.array;
 
 import java.util.ArrayList;
 import java.util.List;
